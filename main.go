@@ -9,8 +9,8 @@ import (
 func main() {
 
 	sc := bufio.NewScanner(os.Stdin)
-	fmt.Print("Введите целое число: ")
+	fmt.Print("Введите данные: ")
 	sc.Scan()
 	txt := sc.Text()
-	fmt.Printf("Вы ввели число: %v\n", txt)
+	fmt.Printf("Вы ввели следующие данные: %v\n", txt)
 }
